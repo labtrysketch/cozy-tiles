@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <title>Steamy Cup</title>
+  <desc>Original illustration for Cozy Tiles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E5F8F1"/><stop offset="0.55" stop-color="#FFF8F1"/><stop offset="1" stop-color="#E7F6FF"/></linearGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#7f97b8" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  
+  <!-- cloth dots -->
+  <g fill="#D7F1E4">
+    <circle cx="80" cy="120" r="10"/><circle cx="160" cy="200" r="8"/>
+    <circle cx="700" cy="160" r="12"/><circle cx="640" cy="80" r="7"/>
+    <circle cx="80" cy="640" r="9"/><circle cx="720" cy="680" r="8"/>
+  </g>
+  <path d="M100.0,64.0 L103.8,76.2 L116.0,80.0 L103.8,83.8 L100.0,96.0 L96.2,83.8 L84.0,80.0 L96.2,76.2Z" fill="#FFE7A8"/>
+  <path d="M680.0,78.0 L682.9,87.1 L692.0,90.0 L682.9,92.9 L680.0,102.0 L677.1,92.9 L668.0,90.0 L677.1,87.1Z" fill="#FFE7A8"/>
+  <!-- flower -->
+  <g filter="url(#soft)">
+    <circle cx="130" cy="300" r="26" fill="#FFC2D4" stroke="#4E5D80" stroke-width="6"/>
+    <circle cx="168" cy="330" r="26" fill="#FFC2D4" stroke="#4E5D80" stroke-width="6"/>
+    <circle cx="104" cy="346" r="26" fill="#FFC2D4" stroke="#4E5D80" stroke-width="6"/>
+    <circle cx="150" cy="378" r="26" fill="#FFC2D4" stroke="#4E5D80" stroke-width="6"/>
+    <circle cx="188" cy="368" r="22" fill="#FFD6E4" stroke="#4E5D80" stroke-width="6"/>
+    <circle cx="148" cy="342" r="20" fill="#FFE7A8" stroke="#4E5D80" stroke-width="6"/>
+    <rect x="142" y="400" width="12" height="70" rx="6" fill="#8ED0B4" stroke="#4E5D80" stroke-width="5"/>
+  </g>
+  <!-- sugar -->
+  <g>
+    <rect x="80" y="600" width="54" height="42" rx="8" fill="#FFFFFF" stroke="#4E5D80" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="118" y="624" width="54" height="42" rx="8" fill="#FFFFFF" stroke="#4E5D80" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <!-- lemon -->
+  <g filter="url(#soft)">
+    <circle cx="680" cy="620" r="48" fill="#FFE08A" stroke="#4E5D80" stroke-width="7"/>
+    <circle cx="680" cy="620" r="22" fill="#FFF6C4" stroke="#4E5D80" stroke-width="5"/>
+  </g>
+  <!-- saucer, drawn before the cup so the bowl sits in it -->
+  <ellipse cx="390" cy="640" rx="230" ry="46" fill="#FFFFFF" stroke="#4E5D80" stroke-width="8"/>
+  <ellipse cx="390" cy="628" rx="150" ry="22" fill="#F3FBFF"/>
+  <!-- spoon -->
+  <g transform="rotate(-18 620 640)">
+    <rect x="560" y="632" width="110" height="14" rx="7" fill="#F4E7D4" stroke="#4E5D80" stroke-width="5"/>
+    <ellipse cx="680" cy="639" rx="24" ry="15" fill="#FFF" stroke="#4E5D80" stroke-width="5"/>
+  </g>
+  <!-- round teacup -->
+  <g filter="url(#soft)">
+    <path d="M560,430 C670,420 680,560 548,575" fill="none" stroke="#4E5D80" stroke-width="34" stroke-linecap="round"/>
+    <path d="M558,442 C640,440 646,545 546,562" fill="none" stroke="#FFE4EE" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="390" cy="470" r="158" fill="#FFE4EE" stroke="#4E5D80" stroke-width="8"/>
+    <ellipse cx="390" cy="340" rx="132" ry="34" fill="#C4845A" stroke="#4E5D80" stroke-width="7"/>
+    <ellipse cx="360" cy="332" rx="46" ry="10" fill="#E7B48A" opacity="0.7"/>
+    <!-- rose -->
+    <g>
+      <circle cx="300" cy="540" r="28" fill="#FF9BB8" stroke="#4E5D80" stroke-width="5"/>
+      <circle cx="336" cy="522" r="26" fill="#FFB3C8" stroke="#4E5D80" stroke-width="5"/>
+      <circle cx="268" cy="516" r="24" fill="#FFC2D4" stroke="#4E5D80" stroke-width="5"/>
+      <circle cx="300" cy="500" r="22" fill="#FFD0E0" stroke="#4E5D80" stroke-width="5"/>
+      <circle cx="304" cy="522" r="14" fill="#FFE7A8" stroke="#4E5D80" stroke-width="4"/>
+    </g>
+    <circle cx="374" cy="450" r="9" fill="#4E5D80"/><circle cx="446" cy="450" r="9" fill="#4E5D80"/><circle cx="377.15" cy="446.85" r="2.5200000000000005" fill="#fff"/><circle cx="449.15" cy="446.85" r="2.5200000000000005" fill="#fff"/>
+    <ellipse cx="358" cy="488" rx="16" ry="11" fill="#FFB4C8"/><ellipse cx="462" cy="488" rx="16" ry="11" fill="#FFB4C8"/>
+    <path d="M392,500 Q410,512 428,500" fill="none" stroke="#4E5D80" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <!-- steam -->
+  <path d="M300,300 C270,250 340,230 300,170" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"/>
+  <path d="M430,290 C470,230 400,200 450,150" fill="none" stroke="#E7F7FF" stroke-width="10" stroke-linecap="round"/>
+  <g transform="translate(300.0,150.0) scale(1.150)"><path d="M0,5.2 C0,5.2 -10.2,-0.6 -10.2,-6.2 C-10.2,-11 -5.6,-13.2 0,-8.6 C5.6,-13.2 10.2,-11 10.2,-6.2 C10.2,-0.6 0,5.2 0,5.2Z" fill="#FFFFFF" stroke="#4E5D80" stroke-width="2.78" stroke-linejoin="round"/></g>
+  <g transform="translate(455.0,130.0) scale(1.250)"><path d="M0,5.2 C0,5.2 -10.2,-0.6 -10.2,-6.2 C-10.2,-11 -5.6,-13.2 0,-8.6 C5.6,-13.2 10.2,-11 10.2,-6.2 C10.2,-0.6 0,5.2 0,5.2Z" fill="#D5F3FB" stroke="#4E5D80" stroke-width="2.56" stroke-linejoin="round"/></g>
+  <path d="M180.0,138.0 L182.9,147.1 L192.0,150.0 L182.9,152.9 L180.0,162.0 L177.1,152.9 L168.0,150.0 L177.1,147.1Z" fill="#FFE7A8"/>
+
+</svg>

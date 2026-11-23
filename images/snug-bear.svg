@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
+  <title>Blanket Bear</title>
+  <desc>Original illustration for Cozy Tiles.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E4DCFB"/><stop offset="0.5" stop-color="#F4F0FF"/><stop offset="1" stop-color="#FFF6EA"/></linearGradient>
+    <filter id="soft" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#7f97b8" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  
+  <path d="M80.0,54.0 L83.8,66.2 L96.0,70.0 L83.8,73.8 L80.0,86.0 L76.2,73.8 L64.0,70.0 L76.2,66.2Z" fill="#FFE7A8"/>
+  <path d="M430.0,49.0 L432.6,57.4 L441.0,60.0 L432.6,62.6 L430.0,71.0 L427.4,62.6 L419.0,60.0 L427.4,57.4Z" fill="#fff"/>
+  <!-- window -->
+  <g filter="url(#soft)">
+    <rect x="48" y="70" width="180" height="200" rx="28" fill="#FFFFFF" stroke="#4E5D80" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="68" y="90" width="140" height="150" rx="18" fill="#C9E9F8" stroke-width="6" stroke="#4E5D80" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="138.0" y1="150.0" x2="138.0" y2="128.0" stroke="#fff" stroke-width="4" stroke-linecap="round"/><line x1="138.0" y1="137.9" x2="142.0" y2="133.2" stroke="#fff" stroke-width="3" stroke-linecap="round"/><line x1="138.0" y1="137.9" x2="134.0" y2="133.2" stroke="#fff" stroke-width="3" stroke-linecap="round"/><line x1="138.0" y1="150.0" x2="157.1" y2="139.0" stroke="#fff" stroke-width="4" stroke-linecap="round"/><line x1="148.5" y1="143.9" x2="154.5" y2="145.0" stroke="#fff" stroke-width="3" stroke-linecap="round"/><line x1="148.5" y1="143.9" x2="150.6" y2="138.2" stroke="#fff" stroke-width="3" stroke-linecap="round"/><line x1="138.0" y1="150.0" x2="157.1" y2="161.0" stroke="#fff" stroke-width="4" stroke-linecap="round"/><line x1="148.5" y1="156.1" x2="150.6" y2="161.8" stroke="#fff" stroke-width="3" stroke-linecap="round"/><line x1="148.5" y1="156.1" x2="154.5" y2="155.0" stroke="#fff" stroke-width="3" stroke-linecap="round"/><line x1="138.0" y1="150.0" x2="138.0" y2="172.0" stroke="#fff" stroke-width="4" stroke-linecap="round"/><line x1="138.0" y1="162.1" x2="134.0" y2="166.8" stroke="#fff" stroke-width="3" stroke-linecap="round"/><line x1="138.0" y1="162.1" x2="142.0" y2="166.8" stroke="#fff" stroke-width="3" stroke-linecap="round"/><line x1="138.0" y1="150.0" x2="118.9" y2="161.0" stroke="#fff" stroke-width="4" stroke-linecap="round"/><line x1="127.5" y1="156.1" x2="121.5" y2="155.0" stroke="#fff" stroke-width="3" stroke-linecap="round"/><line x1="127.5" y1="156.1" x2="125.4" y2="161.8" stroke="#fff" stroke-width="3" stroke-linecap="round"/><line x1="138.0" y1="150.0" x2="118.9" y2="139.0" stroke="#fff" stroke-width="4" stroke-linecap="round"/><line x1="127.5" y1="143.9" x2="125.4" y2="138.2" stroke="#fff" stroke-width="3" stroke-linecap="round"/><line x1="127.5" y1="143.9" x2="121.5" y2="145.0" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+    <path d="M100.0,182.0 L101.9,188.1 L108.0,190.0 L101.9,191.9 L100.0,198.0 L98.1,191.9 L92.0,190.0 L98.1,188.1Z" fill="#fff"/>
+  </g>
+  <!-- moon -->
+  <circle cx="680" cy="130" r="62" fill="#FFF3B0" stroke="#4E5D80" stroke-width="7"/>
+  <circle cx="708" cy="112" r="48" fill="#E4DCFB"/>
+  <path d="M600.0,68.0 L602.9,77.1 L612.0,80.0 L602.9,82.9 L600.0,92.0 L597.1,82.9 L588.0,80.0 L597.1,77.1Z" fill="#FFE7A8"/>
+  <!-- bed -->
+  <g filter="url(#soft)">
+    <rect x="120" y="430" width="560" height="250" rx="60" fill="#FFFFFF" stroke="#4E5D80" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="150" y="390" width="160" height="90" rx="36" fill="#FFC2D4" stroke="#4E5D80" stroke-width="7"/>
+    <!-- blanket -->
+    <path d="M150,520 H650 Q690,520 690,570 V640 Q690,690 630,690 H190 Q140,690 140,630 V560 Q140,520 180,520 Z" fill="#FFF6EA" stroke="#4E5D80" stroke-width="8" stroke-linejoin="round"/>
+    <path d="M250.0,586.0 L253.4,596.6 L264.0,600.0 L253.4,603.4 L250.0,614.0 L246.6,603.4 L236.0,600.0 L246.6,596.6Z" fill="#7B74E8"/>
+    <path d="M420.0,628.0 L422.9,637.1 L432.0,640.0 L422.9,642.9 L420.0,652.0 L417.1,642.9 L408.0,640.0 L417.1,637.1Z" fill="#5C8DEF"/>
+    <g transform="translate(560.0,610.0) scale(1.100)"><path d="M0,5.2 C0,5.2 -10.2,-0.6 -10.2,-6.2 C-10.2,-11 -5.6,-13.2 0,-8.6 C5.6,-13.2 10.2,-11 10.2,-6.2 C10.2,-0.6 0,5.2 0,5.2Z" fill="#FF9BB8" stroke="#4E5D80" stroke-width="2.91" stroke-linejoin="round"/></g>
+    <path d="M340.0,560.0 L342.4,567.6 L350.0,570.0 L342.4,572.4 L340.0,580.0 L337.6,572.4 L330.0,570.0 L337.6,567.6Z" fill="#FFE7A8"/>
+    <!-- bear head -->
+    <circle cx="300" cy="300" r="46" fill="#E7B48A" stroke="#4E5D80" stroke-width="7"/>
+    <circle cx="470" cy="300" r="46" fill="#E7B48A" stroke="#4E5D80" stroke-width="7"/>
+    <circle cx="312" cy="300" r="22" fill="#FFD0B0"/>
+    <circle cx="458" cy="300" r="22" fill="#FFD0B0"/>
+    <circle cx="385" cy="360" r="110" fill="#E7B48A" stroke="#4E5D80" stroke-width="8"/>
+    <ellipse cx="385" cy="400" rx="48" ry="36" fill="#FFD8BE" stroke="#4E5D80" stroke-width="6"/>
+    <path d="M334.6,350 Q353,361.5 371.4,350" fill="none" stroke="#4E5D80" stroke-width="5.75" stroke-linecap="round"/><path d="M398.6,350 Q417,361.5 435.4,350" fill="none" stroke="#4E5D80" stroke-width="5.75" stroke-linecap="round"/>
+    <ellipse cx="385" cy="392" rx="9" ry="7.2" fill="#C4845A"/>
+    <path d="M371,408 Q385,418 399,408" fill="none" stroke="#4E5D80" stroke-width="4" stroke-linecap="round"/>
+    <ellipse cx="333" cy="380" rx="16" ry="11" fill="#FFB4C8"/><ellipse cx="437" cy="380" rx="16" ry="11" fill="#FFB4C8"/>
+    <!-- nightcap -->
+    <path d="M300,300 Q340,160 470,230 Q520,250 500,300" fill="#7B74E8" stroke="#4E5D80" stroke-width="7" stroke-linejoin="round"/>
+    <circle cx="500" cy="250" r="22" fill="#FFFFFF" stroke="#4E5D80" stroke-width="6"/>
+    <!-- zzz -->
+    <path d="M560,250 h36 l-36,28 h36" fill="none" stroke="#4E5D80" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M610,210 h26 l-26,20 h26" fill="none" stroke="#7B74E8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- slippers -->
+  <g>
+    <ellipse cx="180" cy="730" rx="54" ry="28" fill="#FFC2D4" stroke="#4E5D80" stroke-width="7"/>
+    <ellipse cx="270" cy="742" rx="54" ry="28" fill="#7FD0EA" stroke="#4E5D80" stroke-width="7"/>
+  </g>
+  <!-- nightstand mug -->
+  <g>
+    <rect x="640" y="680" width="70" height="54" rx="16" fill="#FFFFFF" stroke="#4E5D80" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M710,694 q28,14 0,32" fill="none" stroke="#4E5D80" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="675" cy="684" rx="28" ry="10" fill="#C4845A" stroke="#4E5D80" stroke-width="5"/>
+  </g>
+
+</svg>
